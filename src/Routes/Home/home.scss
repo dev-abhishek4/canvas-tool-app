@@ -1,0 +1,27 @@
+.canvas-draw-section {
+    display: flex;
+    flex-direction: column;
+
+    .tool-and-canvas-container {
+        display: flex;
+        justify-content: center;
+
+        .tool-list {
+            border-left: 1px solid black;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            padding: 2px;
+        }
+    
+        #canvas-id {
+            border: 1px solid black;
+        }
+    }
+
+    .canvas-element-settings-container {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
